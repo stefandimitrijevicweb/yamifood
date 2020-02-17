@@ -1,0 +1,2 @@
+ErrorDocument 403 http://localhost/yamifood/index.php?page=403_404
+ErrorDocument 404 http://localhost/yamifood/index.php?page=403_404

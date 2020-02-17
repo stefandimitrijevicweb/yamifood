@@ -1,0 +1,23 @@
+register.php	11.02.2020 22:45:03	::1	500	SQLSTATE[21S01]: Insert value list does not match column list: 1136 Column count doesn't match value count at row 1
+login.php	12.02.2020 00:58:34	::1	409	Pogresna lozinka
+login.php	12.02.2020 00:59:27	::1	404	Korisnik nije pronadjen.
+login.php	12.02.2020 00:59:35	::1	404	Korisnik nije pronadjen.
+dohvatiOcenuZaProizvod.php	12.02.2020 21:22:38	::1	500	SQLSTATE[42S02]: Base table or view not found: 1146 Table 'yamifood.korisnik_proizvod' doesn't exist
+dohvatiOcenuZaProizvod.php	12.02.2020 21:22:53	::1	500	SQLSTATE[42S02]: Base table or view not found: 1146 Table 'yamifood.korisnik_proizvod' doesn't exist
+dohvatiOcenuZaProizvod.php	12.02.2020 21:23:18	::1	500	SQLSTATE[42S02]: Base table or view not found: 1146 Table 'yamifood.korisnik_proizvod' doesn't exist
+register.php	17.02.2020 00:32:29	::1	409	Email vec postoji.
+register.php	17.02.2020 00:32:39	::1	409	Email vec postoji.
+register.php	17.02.2020 00:35:01	::1	409	Email vec postoji.
+register.php	17.02.2020 00:38:38	::1	500	SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'ime' cannot be null
+login.php	17.02.2020 00:40:47	::1	404	Korisnik nije pronadjen.
+login.php	17.02.2020 00:41:01	::1	409	Pogresna lozinka
+login.php	17.02.2020 03:28:41	::1	409	Pogresna lozinka
+deleteProizvoda.php	17.02.2020 13:30:03	::1	500	SQLSTATE[23000]: Integrity constraint violation: 1451 Cannot delete or update a parent row: a foreign key constraint fails (`yamifood`.`korisnik_proizvod`, CONSTRAINT `korisnik_proizvod_ibfk_2` FOREIGN KEY (`id_proizvod`) REFERENCES `proizvod` (`id_proizvod`))
+deleteProizvoda.php	17.02.2020 13:30:15	::1	500	SQLSTATE[23000]: Integrity constraint violation: 1451 Cannot delete or update a parent row: a foreign key constraint fails (`yamifood`.`korisnik_proizvod`, CONSTRAINT `korisnik_proizvod_ibfk_2` FOREIGN KEY (`id_proizvod`) REFERENCES `proizvod` (`id_proizvod`))
+deleteProizvoda.php	17.02.2020 13:33:58	::1	500	SQLSTATE[23000]: Integrity constraint violation: 1451 Cannot delete or update a parent row: a foreign key constraint fails (`yamifood`.`korisnik_proizvod`, CONSTRAINT `korisnik_proizvod_ibfk_2` FOREIGN KEY (`id_proizvod`) REFERENCES `proizvod` (`id_proizvod`))
+register.php	17.02.2020 16:47:45	::1	409	Email vec postoji.
+register.php	17.02.2020 16:47:54	::1	500	SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'ime' cannot be null
+register.php	17.02.2020 16:48:11	::1	500	SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'ime' cannot be null
+register.php	17.02.2020 16:48:49	::1	500	SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'ime' cannot be null
+register.php	17.02.2020 16:49:36	::1	500	SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'ime' cannot be null
+login.php	17.02.2020 16:52:03	::1	409	Pogresna lozinka
