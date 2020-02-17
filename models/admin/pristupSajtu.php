@@ -13,7 +13,7 @@ foreach($file as $row){
             switch($page){
                 case 'home': $stranicePosete[0]+=1;
                     break;
-                case 'allbeers': $stranicePosete[1]+=1;
+                case 'menu': $stranicePosete[1]+=1;
                     break;
                 case 'register': $stranicePosete[2]+=1;
                     break;
