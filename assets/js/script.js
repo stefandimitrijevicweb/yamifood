@@ -551,7 +551,7 @@ function proveraProizvod(){
         nizGreske.push("Morate upisati opis.");
     }
     if(!regCena.test(cena)){
-        nizGreske.push("Vrednost u polje cena morate uneti kao ceo broj ili kao decimalan broj sa jednim mestom nakon tačke! Primer: 5 ili 5.3");
+        nizGreske.push("Vrednost u polje cena morate uneti kao ceo broj ili kao decimalan broj sa jednim ili dva mesta nakon tačke! Primer: 5 ili 5.3 ili 5.76");
     }
     if(kategorija=="Izaberite..."){
         nizGreske.push("Morate izabrati kategoriju");

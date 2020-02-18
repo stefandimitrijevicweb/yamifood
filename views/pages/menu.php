@@ -84,7 +84,6 @@
                                 require_once "models/functions.php";
                                 $podaci=dohvati('kategorija');
                                 foreach($podaci as $podatak): ?>
-<!--                                  data-filter=".//=strtolower($podatak->naziv_kategorije)-->
                                     <button class="buttonKategorija" data-id="<?= $podatak->id_kategorija ?>"><?= $podatak->naziv_kategorije ?></button>
 
                                 <?php endforeach;?>

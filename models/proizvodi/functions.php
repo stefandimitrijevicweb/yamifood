@@ -17,8 +17,6 @@ function radSaSlikom($slikaNaziv, $slikaTmp, $slikaTip, $slikaVelicina, $dimenzi
 
     $dozvoljeniTipovi = ['image/jpeg', 'image/jpg', 'image/png'];
 
-    $regAlkohol = "/^([1-9][0-9]?)(\.\d)?$/";
-
 
     if (!in_array($slikaTip, $dozvoljeniTipovi)) {
         array_push($greske, "Tip fajla nije odgovarajući.");
