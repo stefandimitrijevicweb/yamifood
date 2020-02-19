@@ -18,3 +18,4 @@ register.php	17.02.2020 16:48:49	::1	500	SQLSTATE[23000]: Integrity constraint v
 register.php	17.02.2020 16:49:36	::1	500	SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'ime' cannot be null
 login.php	17.02.2020 16:52:03	::1	409	Pogresna lozinka
 login.php	17.02.2020 23:10:15	::1	404	Korisnik nije pronadjen.
+login.php	19.02.2020 17:43:34	::1	404	Korisnik nije pronadjen.

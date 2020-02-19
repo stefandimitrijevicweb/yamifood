@@ -19,7 +19,7 @@ if(!isset($_SESSION['korisnik'])){ ?>
             <div class="col-lg-12 col-sm-12 col-xs-12">
                 <div class="contact-block">
                     <form>
-                        <div class="col-md-6 registerLoginForme">
+                        <div class="col-md-12 registerLoginForme">
                             <div class="form-group">
                                 <label for="ime">First name:</label>
                                 <input type="text" class="form-control" id="ime" name="ime" placeholder="First name" onblur="proveriIme()">
@@ -40,7 +40,7 @@ if(!isset($_SESSION['korisnik'])){ ?>
                                 <input type="password" class="form-control" id="password" name="password" placeholder="Password" onblur="proveriPassword()">
                                 <h4 class="regularniFalse">Please, enter a valid password with minimum 5 characters.</h4>
                             </div>
-                            <input type="button" class="btn btn-primary btnRegisterLogin " value="Submit" id="registrujSe" name="registrujSe"/>
+                            <input type="button" class="btn form-group btn-primary btnRegisterLogin " value="Submit" id="registrujSe" name="registrujSe"/>
                         </div>
                     </form>
                 </div>

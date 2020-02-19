@@ -1439,7 +1439,7 @@ blockquote {
 
 .admin {
 	margin-top: 20px;
-    width: 50%;
+    width: 88%;
     text-align: center;
 }
 
@@ -1517,6 +1517,10 @@ blockquote {
     align-self: center;
 }
 
+.ulogaDdl{
+	width: 50%;
+	margin: 0 auto;
+}
 
 
 

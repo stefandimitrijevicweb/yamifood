@@ -289,7 +289,7 @@ $(document).ready(function(){
                         <input type="hidden"  value="${podatak.id_proizvod}" name="updateDeleteId"/>`;
 
                         ispis+=`<label for="kategorija">Kategorija</label>
-                        <select class="form-control" id="kategorijaIzbor" name="kategorijaIzbor">`;
+                        <select class="form-control form-group" id="kategorijaIzbor" name="kategorijaIzbor">`;
                         let selektovano="";
                         for(let podatak2 of podaci){
                             if(podatak.id_kategorija==podatak2.id_kategorija)

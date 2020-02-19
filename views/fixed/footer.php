@@ -19,7 +19,7 @@
                     </div>
                 <?php endforeach; ?>
                 <div class="col-lg-12">
-                    <p class="company-name">All Rights Reserved. &copy; 2018 <a href="#">Yamifood Restaurant</a> Design By :
+                    <p class="company-name">All Rights Reserved. &copy; 2020 <a href="https://github.com/stefandimitrijevicweb/yamifood/">Stefan Dimitrijević</a> Design By :
                         <a href="https://html.design/">html design</a></p>
                 </div>
             </div>
